@@ -73,7 +73,7 @@ if(!class_exists('THJMF')):
 		}
 
 		private function set_locale() {
-			add_action('plugins_loaded', array($this, 'load_plugin_textdomain'));
+			add_action('init', array($this, 'load_plugin_textdomain'));
 		}
 
 		public function load_plugin_textdomain(){

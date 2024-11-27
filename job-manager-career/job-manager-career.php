@@ -3,7 +3,7 @@
  * Plugin Name: Job Manager & Career - Manage job board listings, and recruitments
  * Description: Create and manage jobs from WordPress admin panel.
  * Author:      ThemeHigh
- * Version:     1.4.7
+ * Version:     1.4.8
  * Author URI:  https://www.themehigh.com
  * Plugin URI:  https://www.themehigh.com/job-manager
  * Text Domain: job-manager-career
@@ -12,7 +12,7 @@
  
 if(!defined( 'ABSPATH' )) exit;
 
-define('THJMF_VERSION', '1.4.7');
+define('THJMF_VERSION', '1.4.8');
 !defined('THJMF_FILE') && define('THJMF_FILE', __FILE__);
 !defined('THJMF_PATH') && define('THJMF_PATH', plugin_dir_path( __FILE__ ));
 !defined('THJMF_URL') && define('THJMF_URL', plugins_url( '/', __FILE__ ));
