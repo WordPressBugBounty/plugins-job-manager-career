@@ -45,7 +45,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         </label>
         <span class="thjmf-input-wrapper">
             <input type="file" class="input-file thjmf-file-upload" name="resume" id="resume" placeholder="">
-            <label class="thjmf-upload-title"><a href="javascript:void(0)" class="thjmf-file-upload-link"><?php echo esc_html('Upload File', 'job-manager-career'); ?></a>&nbsp;&nbsp;<abbr class="required" title="<?php echo esc_attr('required', 'job-manager-career'); ?>">*</abbr></label>
+            <label class="thjmf-upload-title"><a href="#" class="thjmf-file-upload-link"><?php echo esc_html('Upload File', 'job-manager-career'); ?></a>&nbsp;&nbsp;<abbr class="required" title="<?php echo esc_attr('required', 'job-manager-career'); ?>">*</abbr></label>
         </span>
     </p>
     <p class="thjmf-form-field thjmf-form-row thjmf-form-row-wide thjmf-field-has-placeholder-label thjmf-field-textarea" id="thjmf_cover_letter_field" data-priority="">

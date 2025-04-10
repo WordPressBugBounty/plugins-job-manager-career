@@ -461,7 +461,8 @@ if(!class_exists('THJMF_Posts')):
 		    }
 	    	?>
 			<div class="thjmf-admin-resume" style="display: inline-block;margin: 0;">
-				<a href="<?php echo esc_url($url); ?>" target="_blank"><?php echo esc_html__("Resume", 'job-manager-career'); ?></a>
+				<a href="<?php echo esc_url($url); ?>" <?php echo apply_filters('thjmf_view_pdf_on_admin_menu', true) ? 'target="_blank"' : 'download'; ?>>
+				<?php echo esc_html__("Resume", 'job-manager-career'); ?></a>
 				<span><i>[ <?php echo esc_html( $file_name ); ?> ]</i></span>
 			</div>
 	    	<?php

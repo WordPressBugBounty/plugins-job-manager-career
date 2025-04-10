@@ -5,7 +5,7 @@ Tags: WP Job Manager, Job Listing, WP Job Board, Job Manager, Wordpress Job Mana
 Requires at least: 4.7
 Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.4.8
+Stable tag: 1.4.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -162,6 +162,9 @@ Once a job is expired, the users will not be able to apply for the same.
 13. Backup & Import Settings.
 
 == Changelog ==
+
+= 1.4.9 =
+* Fix: Updated CSP to resolve JavaScript execution issue.
 
 = 1.4.8 =
 * Added WordPress 6.7 compatibility.

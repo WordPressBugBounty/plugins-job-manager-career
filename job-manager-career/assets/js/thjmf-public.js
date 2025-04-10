@@ -137,6 +137,7 @@ var thjmf_public  = (function($, window, document) {
 	});
 
 	$('.thjmf-file-upload-link').click(function(event){
+		event.preventDefault();
 		var upload_wrapper = $(this).closest('.thjmf-form-row');
 		upload_wrapper.find('.thjmf-file-upload').click();
 		setTimeout(function(){
