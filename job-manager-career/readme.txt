@@ -3,9 +3,9 @@ Contributors: ThemeHigh
 Donate link: https://themehigh.com/
 Tags: WP Job Manager, Job Listing, WP Job Board, Job Manager, Wordpress Job Manager
 Requires at least: 4.7
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 1.4.9
+Stable tag: 1.4.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -162,6 +162,9 @@ Once a job is expired, the users will not be able to apply for the same.
 13. Backup & Import Settings.
 
 == Changelog ==
+
+= 1.4.10 =
+* Added WordPress 6.8 compatibility.
 
 = 1.4.9 =
 * Fix: Updated CSP to resolve JavaScript execution issue.
